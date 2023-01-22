@@ -4,5 +4,9 @@ version = "0.1.0"
 authors = ["VS Code <vscode@microsoft.com>"]
 
 [lib]
+name = "currency"
 path ="./src/lib/lib.rs"
+
+[dependencies]
+thiserror = "1.0.38"
 
